@@ -12,6 +12,10 @@ body{
 }
 .pie, .push {
   height: 4em;
+  background: gray;
+
+  width: 1920px;
+  height: 350px;
   }
 nav{
     background:#171F2A;
@@ -161,34 +165,339 @@ nav{
         
         width: 1200px;
         height: 100px;
-        background: yellow;
+       
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 50px;
+        margin-top: 40px;
    
+      }
+
+      .text-categorias{
+
+        width: 1200px;
+        height: 100px;
+        margin-top:-60px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+       
+
+      }
+
+      .textmarcas{
+        width: 1200px;
+        height: 100px;
+      
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
       }
 
       .secofertas{
         width: 1200px;
-        height: 600px;
-        background: blue;
+        height: 500px;
+ 
         margin-left: auto;
         margin-right: auto;
+        float: center;
 
       }
+
+      .secategorias{
+        width: 1200px;
+        height: 900px;
+    
+        margin-left: auto;
+        margin-right: auto;
+        float: center;
+      }
+
+      .masventas{
+        width: 1200px;
+        height: 500px;
+    
+        margin-left: auto;
+        margin-right: auto;
+        float: center;
+        
+      }
+
+      .masmarcas{
+        width: 1920px;
+        height: 400px;
+    
+        margin-left: auto;
+        margin-right: auto;
+        float: center;
+
+      }
+
+      .ofer1{
+        width: 280px;
+        height:340px;
+        background: gray;
+        display: inline-block;
+        float: left;
+        margin: 10px;
+        margin-top:20px;
+        border-radius: 10px;
+        
+        
+       
+     
+      }
+
+      .ofer2{
+        width: 280px;
+        height:340px;
+        background: gray;
+        display: inline-block;
+        float: left;
+        margin: 10px;
+        margin-top:20px;
+        border-radius: 10px;
+        
+     
+      }
+      .ofer3{
+        width: 280px;
+        height:340px;
+        background: gray;
+        display: inline-block;
+        float: left;
+        margin: 10px;
+        margin-top:20px;
+        border-radius: 10px;
+        
+     
+      }
+
+      .ofer4{
+        width: 280px;
+        height:340px;
+        background: gray;
+        display: inline-block;
+        float: left;
+        margin: 10px;
+        margin-top:20px;
+        border-radius: 10px;
+        
+     
+      }
+      
+      .cat1{
+        width: 350px;
+        height: 350px;
+      background: gray;
+        border-radius: 200px;
+        margin: 15px;
+        opacity: 80%;
+        margin-top:0px;
+        display: inline-block;
+        margin-left: 25px;
+        margin-right: 20px;
+       
+
+      }
+
+      .cat2{
+        width:350px;
+        height: 350px;
+        background-image: url(/img/cat1.png);
+        border-radius: 200px;
+        margin: 15px;
+        margin-top:0px;
+        display: inline-block;
+        float: left;
+        margin-left: 20px;
+        margin-right: 20px;
+       
+
+      }
+      .cat3{
+        width: 350px;
+        height: 350px;
+        background: gray;
+        border-radius: 200px;
+        margin: 15px;
+        margin-top:0px;
+        display: inline-block;
+        float: left;
+        margin-left: 40px;
+        margin-right: 20px;
+       
+
+      }
+
+      .cat4{
+        width: 350px;
+        height: 350px;
+        background: gray;
+        border-radius: 200px;
+        margin: 15px;
+        margin-top:0px;
+        display: inline-block;
+        float: left;
+        margin-left: 40px;
+        margin-right: 20px;
+       
+
+      }
+
+      .cat5{
+        width:350px;
+        height: 350px;
+        background: gray;
+        border-radius: 200px;
+        margin: 15px;
+        margin-top:0px;
+        display: inline-block;
+        float: left;
+        margin-left: 20px;
+        margin-right: 20px;
+       
+
+      }
+
+      .cat6{
+        width: 350px;
+        height: 350px;
+        background: gray;
+        border-radius: 200px;
+        margin: 15px;
+        margin-top:0px;
+        display: inline-block;
+        float: left;
+        margin-left: 30px;
+        margin-right: 20px;
+       
+
+      }
+
+   
+
+      .cat2  a{
+        display: block;
+        padding: 9rem 4rem;
+        border-radius: 15px;
+        transition: all 0.5s linear;
+
+        color: white;
+        font-size: 2em;
+
+      }
+
+      .textmasventa{
+        width: 1200px;
+        height: 100px;
+    
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+       
+        
+      }
+
+      .masventa1{
+        width: 280px;
+        height:340px;
+        background: gray;
+        display: inline-block;
+        float: left;
+        margin: 70px;
+        margin-top:40px;
+        border-radius: 10px;
+
+
+      }
+
+      .masventa2 {
+        width: 280px;
+        height:340px;
+        background: gray;
+        float: left;
+        margin: 50px;
+        margin-top:40px;
+        border-radius: 10px;
+      }
+      .masventa3 {
+        width: 280px;
+        height:340px;
+        background: gray;
+        float: left;
+        margin: 60px;
+        margin-top:40px;
+        border-radius: 10px;
+      
+      }
+
+      .marca1{
+        width: 300px;
+        height:284px;
+        background: gray;
+        float: left;
+        margin: 70px;
+        margin-top:40px;
+        border-radius: 10px;
+
+      }
+
+      .marca2{
+        width: 300px;
+        height:284px;
+        background: gray;
+        float: left;
+        margin: 30px;
+        margin-top:40px;
+        border-radius: 10px;
+
+      }
+      .marca3{
+        width: 300px;
+        height:284px;
+        background: gray;
+        float: left;
+        margin: 30px;
+        margin-top:40px;
+        border-radius: 10px;
+      }
+      .marca4{
+
+        width: 300px;
+        height:284px;
+        background: gray;
+        float: left;
+        margin: 30px;
+        margin-top:40px;
+        border-radius: 10px;
+      }
+
+      .marca5{
+        width: 300px;
+        height:284px;
+        background: gray;
+        float: left;
+        margin: 30px;
+        margin-top:40px;
+        border-radius: 10px;
+      }
+
+      
+
       
       .container{
         width: 100%;
         height: auto;
-        background: chartreuse; 
+     
      
         
       }
 
       .categorias{
 
-        background: palegreen;
+ 
          height: 200px;
          position: relative;
          
